@@ -6,7 +6,7 @@ import Helmet from "react-helmet"
 
 export default () => (
   <div>
-    <Helmet title="This is the page title" />
+    <Helmet title="React Example" />
     <h1>
       Hello World!
     </h1>

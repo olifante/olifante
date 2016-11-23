@@ -3,15 +3,11 @@
 
 import React from 'react'
 
-export default class Index extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1>
-          Hello ReDI School Class!
-        </h1>
-        <p>Welcome to your new clean Gatsby site</p>
-      </div>
-    )
-  }
-} 
+export default () => (
+  <div>
+    <h1>
+      Hello ReDI School Class!
+    </h1>
+    <p>Welcome to your new clean Gatsby site</p>
+  </div>
+)
